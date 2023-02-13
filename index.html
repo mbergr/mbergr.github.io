@@ -3,47 +3,75 @@
   <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      /* Set background color and font style */
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      
+      /* Add header with centered text */
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      /* Add some padding and margin to the header */
+      header h1 {
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Style the main content area */
+      main {
+        padding: 20px;
+      }
+      
+      /* Style the section headers */
+      h2 {
+        color: #333;
+        margin: 20px 0;
+        text-align: center;
+      }
+      
+      /* Add a border and some padding to the sections */
+      section {
+        border: 1px solid #333;
+        padding: 20px;
+      }
+      
+      /* Style the section content */
+      p {
+        margin: 20px 0;
+      }
+      
+      /* Add some hover effects to the sections */
+      section:hover {
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <header>
       <h1>My Portfolio</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
     <main>
-      <section id="about">
+      <section>
         <h2>About Me</h2>
-        <p>I am a data analyst with experience in data visualization and data analysis. My goal is to use my skills to help organizations make better decisions based on their data.</p>
+        <p>I'm a data analyst with 5 years of experience in the field. I have a strong background in data analysis and visualization, and I have a passion for turning data into insights and actionable recommendations.</p>
       </section>
-      <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-        </ul>
+      <section>
+        <h2>Skills</h2>
+        <p>I have expertise in data analysis using tools such as R, Python, and SQL. I'm also experienced in data visualization using tools such as Tableau and PowerBI. I have a strong understanding of statistical techniques and machine learning algorithms, and I have experience working with large, complex datasets.</p>
       </section>
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="submit-form.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
-          <input type="submit" value="Submit">
-        </form>
+      <section>
+        <h2>Projects</h2>
+        <p>I have completed several projects in the areas of customer analysis, predictive modeling, and data visualization. Some of my most notable projects include a customer segmentation analysis for a retail company, and a predictive model to forecast sales for a manufacturing company.</p>
       </section>
     </main>
-    <footer>
-      <p>Copyright © 2022 My Portfolio</p>
-    </footer>
   </body>
 </html>
